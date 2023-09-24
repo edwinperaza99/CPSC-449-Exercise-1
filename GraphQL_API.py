@@ -87,3 +87,4 @@ print("\nNames of tracks on the playlist Grunge and their associated artist and 
 for track in Grunge["data"]["playlists"][0]["tracks"]:
     print(track["name"] + " by " + track["album"]["artist"]["name"] + " is part of the album " + track["album"]["title"])
 
+# end of GraphQL API calls
